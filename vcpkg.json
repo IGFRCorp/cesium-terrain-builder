@@ -1,0 +1,17 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg/master/scripts/vcpkg.schema.json",
+    "name": "cesium-terrain-builder",
+    "version": "1.0.0",
+    "supports": "windows",
+    "dependencies": [
+        "gdal",
+        "nlohmann-json",
+        "libgeotiff",
+        "libiconv",
+        "libjpeg-turbo",
+        "libpng",
+        "proj4",
+        "tiff",
+        "zlib"
+    ]
+  }
